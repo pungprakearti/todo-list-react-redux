@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import './Todo.css'
 
 class Todo extends Component {
   constructor(props) {
@@ -8,7 +7,6 @@ class Todo extends Component {
   }
 
   handleRemove() {
-    console.log(this.props)
     return this.props.handleRemove(this.props.id)
   }
 
